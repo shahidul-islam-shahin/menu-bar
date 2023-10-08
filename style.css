@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.header-top-area {
+    background-color: #218ae6;
+    padding: 10px 0;
+}
+
+.header-top-area, .header-top-area a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-top-area .text-end .fa-solid {
+    padding-left: 20px;
+}
+
+.header-area h3 a {
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header-area h3 {
+    margin-top: 22px;
+}
+
+.header-area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-area li {
+    display: inline-block;
+}
+
+.header-area li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 25px 0 25px 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.header-area li a:hover {
+    color: #218ae6;
+}
+
+.homepage-slides {
+    background-color: #218ae6;
+    color: #fff;
+}
+
+.homepage-slides h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.homepage-slides p {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.slide-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #f9cf25;
+    padding: 12px 23px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.single-homepage-slide {
+    padding: 225px 0;
+}
+
+.homepage-slides .fa-solid {
+    margin-left: 10px;
+}
